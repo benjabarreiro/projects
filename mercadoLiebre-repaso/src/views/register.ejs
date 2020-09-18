@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Include Head -->
+<%- include('partials/head', {title: 'Formulario de creación'}) %>
+<body>
+	<!-- Header -->
+	<%- include('partials/headerNavbar') %>
+	<!-- /Header -->
+
+	<div class="container products-wrapper">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="products-title">Registración</h2>
+			</div>
+		</div>
+		<div class="col-12">
+			<form action="" method="POST" enctype="multipart/form-data">
+				<div class="row product-detail">
+					<div class="col-12">
+						<label for="email" class="form-label">Email:</label>
+						<input type="text" id="email" name="email" class="form-input">
+						<small class="text-danger"><%= (typeof errors != 'undefined' && errors.email.msg) ? errors.email.msg : '' %></small>
+					</div>
+					<div class="col-12 mb-3">
+						<label for="password" class="form-label">Contraseña:</label>
+						<input type="password" id="password" name="password" class="form-input">
+						<small class="text-danger"><%= (typeof errors != 'undefined' && errors.password.msg) ? errors.password.msg : '' %></small>
+					</div>
+					<div class="col-12 form-group">
+						<label for="avatar" class="form-label">Cargá una imagen</label>&nbsp;&nbsp;&nbsp;
+						<input type="file" class="form-control-file" id="avatar" name="avatar">
+					  </div>
+                    <div class="col-12 mb-3">
+						<label for="repassword" class="form-label">Confirmar contraseña:</label>
+						<input type="password" id="repassword" name="repassword" class="form-input">
+					</div>
+					<div class="col-12 mt-3">
+						<button type="submit" class="buy-now-button">Confirmar</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+	</div>
+	<!-- /todos los productos -->
+
+	<!-- footer -->
+	<%- include('partials/footer') %>
+	<!-- /footer -->
+</body>	
+</html>

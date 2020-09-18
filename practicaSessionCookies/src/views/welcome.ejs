@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+<body>
+  <%- include('./partials/header') %>
+  
+  <div class="container text-center">
+    <h1 class="text-center">Bienvenidx <%= usuario %></h1>
+    <h4 class="text-center">Ahora el login funciona! Podés cerrar sesión cuando lo necesites</h4>
+    <a class="btn btn-danger mt-4" role="button" href="/logout">Cerrar sesión</a>
+  </div>
+
+  <%- include('./partials/scripts') %>
+</body>
+</html>
