@@ -1,0 +1,71 @@
+div.div-list-contact {
+    text-align: right;
+}
+
+ul.ul-style {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div.media-icons {
+    text-align: right;
+    margin-top: 15px;
+}
+
+h1.h1-contact {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    margin-top: 75px;
+}
+
+h3.h3-we-are-here {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+iframe.map {
+    width: 100%;
+}
+
+h3.h3-contact-info {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+h4.sub-titles {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: lightseagreen;
+    font-size: 15px;
+}
+
+div.div-p-style {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+p.p-style {
+    line-height: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+}
+
+b {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: initial;
+    font-size: 11px;
+}

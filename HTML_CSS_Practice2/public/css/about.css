@@ -1,0 +1,56 @@
+body {
+    background-image: url('../img/emilia-about.jpg');
+    background-size: 75%;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+div.ul-background {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: right;
+    margin-top: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+ul.ul-form {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    stop-opacity: inherit;
+}
+
+div.media-icons {
+    text-align: right;
+    margin-top: 15px;
+}
+
+h1.h1-about-emilia {
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+}
+
+div.quotes-about-emilia {
+    margin-left: 25px;
+}
+
+p.p-quotes-about-emilia {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24.7px;
+    color: lightseagreen;
+}
+
+p.p-source-quotes-about-emilia {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: lightseagreen;
+}
