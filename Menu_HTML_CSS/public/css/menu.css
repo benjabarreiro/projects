@@ -1,0 +1,57 @@
+.section {
+    width: 630px;
+    float: right;
+    border-left: solid 1px grey;
+    margin-bottom: 50px;
+}
+
+.section .img-container {
+    float: right;
+    width: 53%;
+}
+
+.section .img-container img {
+    border: 1px solid grey;
+    margin-top: 0;
+    margin-right: 50px;
+    height: 170px;
+    width: 290px;
+}
+
+.section .h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.article {
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    width: 85%;
+}
+
+.h4 {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.p {
+    color: grey;
+    line-height: 20px;
+}
+
+.h4-lone {
+    margin-bottom: 30px;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+.a-section-article {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+}

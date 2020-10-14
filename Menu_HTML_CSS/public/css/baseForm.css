@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.container{
+    margin-top: 20px;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #FCFCFC;
+    border: 1px solid orange;
+    padding: 30px;
+}

@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.container{
+    margin-top: 20px;
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
