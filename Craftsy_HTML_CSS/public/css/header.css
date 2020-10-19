@@ -1,0 +1,38 @@
+.header {
+    background-color: orangered;
+    height: 50px;
+    margin-top: 7px;
+}
+
+.header img {
+    float: left;
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 80px;
+}
+
+.header ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.header ul li {
+    font-size: 12px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+
+.header .header-ul-left {
+    float: left;
+}
+
+.header .header-ul-right {
+    float: right;
+    margin-right: 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./public/css/base.css">
+    <link rel="stylesheet" href="./public/css/header.css">
+    <link rel="stylesheet" href="./public/css/forms-base.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="./index.html"><img src="./public/imgs/logo.png" alt=""></a>
+            
+                <ul class="header-ul-left">
+                    <li class="header-li"><a href="">SMARTPHONES</a></li>
+                    <li class="header-li"><a href="">TABLETS</a></li>
+                    <li class="header-li"><a href="">COMPUTADORAS</a></li>
+                </ul>
+            
+                <ul class="header-ul-right">
+                    <li class="header-li"><a href="./logIn.html">LOGIN</a></li>
+                    <li class="header-li"><a href="./register.html">REGISTRO</a></li>
+                </ul>
+        </header>
+        <div class="forms-container">
+            <h1 class="h1-logIn">Registrate</h1>
+            <form class="form" action="">
+                <div class="input-label-container">
+                    <label class="label-logIn" for="">Nombre</label><br>
+                    <input class="input-logIn" type="text">
+                    <p class="p-form">Obligatorio.</p>
+                </div>
+                
+                <div class="input-label-container">
+                    <label class="label-logIn" for="">Email</label><br>
+                    <input class="input-logIn" type="email">
+                    <p class="p-form">Obligatorio.</p>
+                </div>
+                
+                <div class="input-label-container">
+                    <label class="label-logIn" for="">Contraseña</label><br>
+                    <input class="input-logIn" type="password" name="" id="">
+                    <p class="p-form">Obligatorio.</p>
+                </div>
+                
+                <h2 class="h2-form">País de nacimiento</h2>
+                <select class="select" name="" id="">
+                    <option class="option" value="">Chile</option>
+                </select>
+                <p class="p-form">Obligatorio.</p>
+
+                <h2 class="h2-form">Género</h2>
+                <input class="input-register" type="radio" name="gender">
+                <label class="label-register" for="">Masculino</label>
+                <input class="input-register" type="radio" name="gender">
+                <label class="label-register" for="">Femenino</label>
+                <input class="input-register" type="radio" name="gender">
+                <label class="label-register" for="">Prefiero no decirlo</label>
+
+                <h2 class="h2-form">Hobbies</h2>
+                <input class="input-register" type="checkbox">
+                <label class="label-register" for="">Guitarra</label>
+                <input class="input-register" type="checkbox">
+                <label class="label-register" for="">Fútbol</label>
+                <input class="input-register" type="checkbox">
+                <label class="label-register" for="">Tenis</label>
+                <input class="input-register" type="checkbox">
+                <label class="label-register" for="">Programación</label>
+
+                <h2 class="h2-form">Dejanos tu comentarios</h2>
+                <textarea name="" id="" cols="24" rows="6"></textarea><br>
+                <input class="input-register" type="checkbox">
+                <label class="label-register" for="">Acepto los términos y condiciones.</label> <br>
+                <input class="input-button" type="submit" value="Registrarme" name="" id="">
+                <input class="input-button" type="submit" value="Cancelar" name="" id="">
+                <br>
+                <button class="button-register">Registrarme</button>
+                <button class="button-register">Cancelar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

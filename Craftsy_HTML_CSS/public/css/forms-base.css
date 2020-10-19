@@ -1,0 +1,95 @@
+.forms-container {
+    width: 330px;
+    margin-left: 325px;
+    margin-top: 35px;
+}
+
+.h1-logIn {
+    text-align: center;
+    font-size: 25px;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.input-label-container {
+    margin-bottom: 20px;
+}
+
+.label-logIn {
+    font-size: 15px;
+}
+
+.input-logIn {
+    margin-top: 5px;
+    width: 330px;
+    height: 25px;
+}
+
+.checkbox-container {
+    width: 105px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+
+.checkbox-logIn {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.p-form {
+    font-size: 13px;
+    color: red;
+    margin-bottom: 15px;
+}
+
+button.button {
+    background-color: blue;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    color: white;
+}
+
+.h2-form {
+    margin: 15px 0px;
+    font-size: 17px;
+}
+
+.select {
+    width: 155px;
+    border-radius: 6px;
+}
+
+.label-register {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.input-register {
+    height: 10px;
+    width: 10px;
+}
+
+textarea {
+    margin-bottom: 15px;
+}
+
+.input-button {
+    margin: 20px 0px;
+}
+
+.button-register {
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    color: white;
+    width: 125px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 1px;
+}

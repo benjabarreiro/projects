@@ -1,0 +1,34 @@
+.section {
+    background-color: white;
+    width: 640px;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+section .article {
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+section article .h2 {
+    margin: 15px 0px;
+}
+
+section article .p-section {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+section article .button {
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 0px;
+    padding: 5px;
+    width: 75px;
+}

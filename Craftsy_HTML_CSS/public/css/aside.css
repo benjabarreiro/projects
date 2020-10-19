@@ -1,0 +1,42 @@
+.aside {
+    float: left;
+    width: 300px;
+    margin: 25px 0px 0px 20px;
+}
+
+aside .article-aside {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px;
+}
+
+aside .h2-aside {
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+aside #h2-publicidad {
+    margin-top: 20px;
+}
+
+aside article .img-tutoriales {
+    width: 95px;
+}
+
+aside article .p-tutoriales {
+    display: inline-flex;
+    font-size: 13px;
+    float: right;
+    margin: 12px 75px 0px 0px;
+}
+
+aside article .img-ads {
+    width: 287px;
+    margin-bottom: 3px;
+}
+
+aside article #img-ad {
+    margin-top: 15px;
+}
